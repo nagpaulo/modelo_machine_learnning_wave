@@ -54,7 +54,7 @@ print(confusion_matrix(Y_validation, predictions))
 print(classification_report(Y_validation, predictions))
 ```
 
-## Result the train
+## Training result
 ```
 0.21875
 [[0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
@@ -102,16 +102,33 @@ RIO VERDE DE MATO GROSSO       0.00      0.00      0.00         1
                macro avg       0.04      0.06      0.05        32
             weighted avg       0.15      0.22      0.17        32
 
-/home/bebeto/Documentos/Desenvolvimento/CienciaDeDados/modelo_machine_learning_vitae/.venv/lib64/python3.12/site-packages/sklearn/metrics/_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+1. modelo_machine_learning_vitae/.venv/lib64/python3.12/site-packages/sklearn/metrics/_classification.py:1471:
+UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+Use `zero_division` parameter to control this behavior.
   _warn_prf(average, modifier, msg_start, len(result))
-/home/bebeto/Documentos/Desenvolvimento/CienciaDeDados/modelo_machine_learning_vitae/.venv/lib64/python3.12/site-packages/sklearn/metrics/_classification.py:1471: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+
+2. modelo_machine_learning_vitae/.venv/lib64/python3.12/site-packages/sklearn/metrics/_classification.py:1471:
+UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+Use `zero_division` parameter to control this behavior.
   _warn_prf(average, modifier, msg_start, len(result))
-/home/bebeto/Documentos/Desenvolvimento/CienciaDeDados/modelo_machine_learning_vitae/.venv/lib64/python3.12/site-packages/sklearn/metrics/_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+
+3. modelo_machine_learning_vitae/.venv/lib64/python3.12/site-packages/sklearn/metrics/_classification.py:1471:
+UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+Use `zero_division` parameter to control this behavior.
   _warn_prf(average, modifier, msg_start, len(result))
-/home/bebeto/Documentos/Desenvolvimento/CienciaDeDados/modelo_machine_learning_vitae/.venv/lib64/python3.12/site-packages/sklearn/metrics/_classification.py:1471: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+
+4. modelo_machine_learning_vitae/.venv/lib64/python3.12/site-packages/sklearn/metrics/_classification.py:1471:
+UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+Use `zero_division` parameter to control this behavior.
   _warn_prf(average, modifier, msg_start, len(result))
-/home/bebeto/Documentos/Desenvolvimento/CienciaDeDados/modelo_machine_learning_vitae/.venv/lib64/python3.12/site-packages/sklearn/metrics/_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+
+5. modelo_machine_learning_vitae/.venv/lib64/python3.12/site-packages/sklearn/metrics/_classification.py:1471:
+UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+Use `zero_division` parameter to control this behavior.
   _warn_prf(average, modifier, msg_start, len(result))
-/home/bebeto/Documentos/Desenvolvimento/CienciaDeDados/modelo_machine_learning_vitae/.venv/lib64/python3.12/site-packages/sklearn/metrics/_classification.py:1471: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+
+6. modelo_machine_learning_vitae/.venv/lib64/python3.12/site-packages/sklearn/metrics/_classification.py:1471:
+UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+Use `zero_division` parameter to control this behavior.
   _warn_prf(average, modifier, msg_start, len(result))
 ```
