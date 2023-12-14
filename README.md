@@ -1,6 +1,6 @@
 ## Modelo de Aprendizagem de Dados
-    Modelo criado, através de práticas e cases nos usos de boas práticas e os
-    melhores modelos em ciência de dados explorando dados diversos.
+    Modelo criado através de práticas e cases nos usos de boas práticas  
+    em ciência de dados explorando dados diversos.
     Aplicar técnicas de Machine Learning, Deep Learning
     e Generative AI para endereçar problemas de negócio, melhorando
     produtividade e relacionamento  com clientes e usuários.
