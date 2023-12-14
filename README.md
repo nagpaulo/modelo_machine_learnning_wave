@@ -5,9 +5,8 @@
     e Generative AI para endereçar problemas de negócio, melhorando
     produtividade e relacionamento  com clientes e usuários.
 
-    ## CODE de Train e Test
-    ````
-    ```    
+### CODE de Train e Test
+```    
     array = df.values
     X = array[:,3:8]
     Y = array[:,1]
@@ -15,5 +14,4 @@
     seed = 7
     X_train, X_validation, Y_train, Y_validation = model_selection.train_test_split(X, Y, test_size=validation_size, random_state=seed)
     print('Resultado do Training: ' + str(len(X_train)), 'Test: '+str(len(X_validation)))
-    ````
-    ```
+```
