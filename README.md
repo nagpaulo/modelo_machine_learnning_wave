@@ -54,7 +54,7 @@ print(confusion_matrix(Y_validation, predictions))
 print(classification_report(Y_validation, predictions))
 ```
 
-##Result the train
+## Result the train
 ```
 0.21875
 [[0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
